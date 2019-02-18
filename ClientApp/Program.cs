@@ -19,6 +19,8 @@ namespace ClientApp
       using (ILoggerFactory loggerFactory = NullLoggerFactory.Instance)
       using (Tracer tracer = Tracing.Init("Client-app", loggerFactory))
       {
+        // You can use the OpenTracing.Mock.MockTracer in the unit test.
+
         // Register tracer globally.
         GlobalTracer.Register(tracer);
 
