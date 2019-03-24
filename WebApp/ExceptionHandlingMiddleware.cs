@@ -11,19 +11,14 @@ namespace WebApp
   public static class ExceptionMiddlewareExtensions
   {
     public static IApplicationBuilder UseExceptionHandlingMiddleware(this IApplicationBuilder app)
-    {
-      return app.UseMiddleware<ExceptionHandlingMiddleware>();
-    }
+      => app.UseMiddleware<ExceptionHandlingMiddleware>();
   }
 
   public class ExceptionHandlingMiddleware
   {
     private readonly RequestDelegate _next;
 
-    public ExceptionHandlingMiddleware(RequestDelegate next)
-    {
-      _next = next;
-    }
+    public ExceptionHandlingMiddleware(RequestDelegate next) => _next = next;
 
     public async Task InvokeAsync(HttpContext httpContext)
     {
