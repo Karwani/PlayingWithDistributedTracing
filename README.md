@@ -18,16 +18,16 @@ The solution contains 3 projects.
 - Console application.
 - Initiate HTTP calls to the WebApp.
 - Inject the tracing information in to the HTTP header.
-- Using [Polly](https://github.com/App-vNext/Polly "Polly") to retry and cancel the call.
+- Using [Polly](https://github.com/App-vNext/Polly) to retry and cancel the call.
 
 #### Resources
-- [Jaeger](https://www.jaegertracing.io "Jaeger"): Open-source, end-to-end distributed tracing.
-- [Download Jaeger](https://www.jaegertracing.io/download "Download Jaeger") -> Run: jaeger-all-in-one.exe -> http://localhost:16686.
-- [OpenTracing](https://opentracing.io "OpenTracing"): Vendor-neutral APIs and instrumentation for distributed tracing.
-- GitHub: [C# Client for Jaeger](https://github.com/jaegertracing/jaeger-client-csharp "C# Client for Jaeger").
-- GitHub:[ OpenTracing API for .NET](https://github.com/opentracing/opentracing-csharp " OpenTracing API for .NET").
-- GitHub: [C# Jaeger-OpenTracing Tutorials](https://github.com/yurishkuro/opentracing-tutorial/tree/master/csharp "C# Jaeger-OpenTracing Tutorials").
-- GitHub: [Opentracing-contrib](https://github.com/opentracing-contrib/csharp-netcore "Opentracing-contrib").
+- [Jaeger](https://www.jaegertracing.io): Open-source, end-to-end distributed tracing.
+- [Download Jaeger](https://www.jaegertracing.io/download) -> Run: jaeger-all-in-one.exe -> http://localhost:16686.
+- [OpenTracing](https://opentracing.io): Vendor-neutral APIs and instrumentation for distributed tracing.
+- GitHub: [C# Client for Jaeger](https://github.com/jaegertracing/jaeger-client-csharp).
+- GitHub:[OpenTracing API for .NET](https://github.com/opentracing/opentracing-csharp).
+- GitHub: [C# Jaeger-OpenTracing Tutorials](https://github.com/yurishkuro/opentracing-tutorial/tree/master/csharp).
+- GitHub: [Opentracing-contrib](https://github.com/opentracing-contrib/csharp-netcore).
 
 ##### Screenshot after running the code
 ![Trace](dt-img-01.jpg)
