@@ -31,6 +31,10 @@ The solution contains 3 projects.
 - GitHub: [C# Jaeger-OpenTracing Tutorials](https://github.com/yurishkuro/opentracing-tutorial/tree/master/csharp).
 - GitHub: [Opentracing-contrib](https://github.com/opentracing-contrib/csharp-netcore).
 
+#### Other resources
+
+- [Troubleshooting and monitoring distributed apps in .NET Core 3.0](https://devblogs.microsoft.com/aspnet/improvements-in-net-core-3-0-for-troubleshooting-and-monitoring-distributed-apps) (Microsoft DevBlogs)
+
 ##### Screenshot after running the code
 ![Trace](dt-img-01.jpg)
 ![Trace-detailed](dt-img-02.jpg)
