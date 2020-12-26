@@ -1,14 +1,14 @@
 ﻿using Jaeger;
 using Jaeger.Reporters;
 using Jaeger.Samplers;
-using Jaeger.Senders;
+using Jaeger.Senders.Thrift;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using OpenTracing;
 
 namespace Common
 {
-  public static class Tracing
+    public static class Tracing
   {
     public static Tracer Init(string serviceName, ILoggerFactory loggerFactory = null)
     {
