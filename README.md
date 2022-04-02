@@ -34,6 +34,7 @@ The solution contains 3 projects.
 #### Other resources
 
 - [Troubleshooting and monitoring distributed apps in .NET Core 3.0](https://devblogs.microsoft.com/aspnet/improvements-in-net-core-3-0-for-troubleshooting-and-monitoring-distributed-apps) (Microsoft DevBlogs)
+- YouTube (59min): [OpenTelemetry will save your day and night](https://www.youtube.com/watch?v=pz4bNmlss3w) *(Alexey Zimarev - NDC Oslo 2021)*
 
 ##### Screenshot after running the code
 ![Trace](dt-img-01.jpg)
